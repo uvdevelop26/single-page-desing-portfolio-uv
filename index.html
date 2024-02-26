@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/css/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Single-page design portfolio</title>
+</head>
+
+<body class="bg-lightCream">
+  <!-- ************* "nav" ************* -->
+  <div id="nav">
+    <div class="container px-4 py-3 max-w-6xl mx-auto md:pt-8 md:px-6">
+      <div class="py-1 flex justify-between">
+        <img src="/src/img/logo.svg" alt="logo" class="w-11 h-11 md:w-12 md:h-12">
+        <button class="px-6 py-2 md:px-8 bg-black hover:bg-galacticBlue text-white rounded-3xl">
+          Free Consultation
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- *********** header ********** -->
+  <header id="header">
+    <div class="container px-4 py-3 max-w-6xl mx-auto md:pt-6 md:px-6">
+      <h1 class="pt-4 font-bold text-4xl text-center md:pt-4 md:text-5xl lg:text-6xl">
+        Design solutions made easy
+      </h1>
+      <p class="pt-4 px-7 text-lg text-mediumBrown text-center md:px-20 md:pt-6 lg:leading-7 lg:w-[53rem] lg:mx-auto">
+        With over
+        ten years of
+        experience in
+        various design disciplines,
+        I’m your one-stop shop for your design needs.
+      </p>
+    </div>
+  </header>
+  <!-- ********* main content ********** -->
+  <main id="main">
+    <!-- ********my skills area ******** -->
+    <section id="myskills">
+      <div class="container px-4 pt-4 max-w-6xl mx-auto md:pt-8 md:px-6 lg:pt-16">
+        <!-- grid area -->
+        <div class="grid gap-5 grid-cols-2 md:grid-cols-customGrid lg:grid-cols-newCustomGrid">
+          <!-- graphic design -->
+          <div
+            class="p-5 rounded-lg h-96 overflow-hidden bg-galacticBlue col-span-2 md:col-auto md:row-span-2 lg:row-span-2">
+            <div class="h-full flex flex-col justify-between">
+              <img src="src/img/pattern-graphic-design.svg" alt="graphic design" class="ml-auto w-32">
+              <p class="text-white text-2xl font-semibold">
+                Graphic Design
+              </p>
+            </div>
+          </div>
+
+          <!-- UX / UI -->
+          <div class="p-5 rounded-lg h-44 overflow-hidden bg-summerYellow">
+            <div class="h-full flex flex-col justify-between">
+              <img src="src/img/pattern-ui-ux.svg" alt="UX UI" class="ml-auto w-16">
+              <p class="text-white text-2xl font-semibold">
+                UI/UX
+              </p>
+            </div>
+          </div>
+          <!-- Apps -->
+
+          <div class="p-5 grid rounded-lg h-44 overflow-hidden bg-softPink">
+            <div class="h-full flex flex-col justify-between">
+              <img src="src/img/pattern-apps.svg" alt="Apps" class="ml-auto w-16">
+              <p class="text-white text-2xl font-semibold">Apps</p>
+            </div>
+          </div>
+
+          <!-- illustration -->
+          <div class="p-5 col-span-2 rounded-lg h-44 overflow-hidden bg-ligthRed lg:h-full">
+            <!--         -->
+            <div class="h-full flex flex-col justify-between">
+              <img src="src/img/pattern-illustrations.svg" alt="Illustration" class="ml-auto w-32">
+              <p class="text-white text-2xl font-semibold">
+                Illustrations
+              </p>
+            </div>
+          </div>
+          <!-- photography -->
+          <div
+            class="p-5 col-span-2 rounded-lg h-44 overflow-hidden bg-cyanNew md:col-auto lg:col-start-4 lg:row-start-1 lg:h-full lg:w-96">
+            <!--     -->
+            <div class="h-full flex flex-col justify-between">
+              <img src="src/img/pattern-photography.svg" alt="Photography" class="ml-auto w-44">
+              <p class="text-white text-2xl font-semibold">
+                Photography
+              </p>
+            </div>
+          </div>
+          <!-- motion graphics -->
+          <div
+            class="p-5 col-span-2 rounded-lg h-44 overflow-hidden bg-darkPurple lg:col-start-4 lg:row-start-2 lg:w-96">
+            <div class="h-full flex flex-col justify-between">
+              <img src="src/img/pattern-motion-graphics.svg" alt="Motion Graphics" class="ml-auto w-36">
+              <p class="text-white text-2xl font-semibold">
+                Motion Graphics
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ******** about me ********* -->
+    <section id="aboutme">
+      <div class="container px-4 pt-24 max-w-6xl mx-auto md:px-6 md:pt-28">
+        <div class="md:flex md:h-82 md:items-stretch md:gap-14 lg:h-96">
+          <!--      md:grid md:grid-cols-2 x1l:grid-cols-3 -->
+          <div class="md:flex-1 md:h-full">
+            <img src="src/img/image-amy.webp" alt="my picture"
+              class="w-11/12 max-w-md mx-auto md:mx-auto md:w-auto md:h-full">
+          </div>
+          <div class="pt-8 md:flex-1 md:p-0 md:h-full">
+            <div
+              class="text-center leading-7 md:w-[20rem] md:h-full md:mx-auto md:tracking-wide md:text-left md:leading-6 md:flex md:flex-col md:justify-between lg:w-[34rem] lg:justify-start">
+              <h2 class="px-2 text-2xl font-bold md:px-0 md:text-3xl lg:text-3xl">
+                I’m Amy, and I’d love to work on your next project
+              </h2>
+              <p class="pt-5 px-3 text-mediumBrown md:pt-6 md:pr-0 md:pl-0 md:text-lg lg:leading-8 lg:pt-8">I love
+                working with
+                others to create
+                beautiful design solutions.
+                I’ve designed everything from brand
+                illustrations
+                to complete mobile apps. I’m also handy with a camera!</p>
+              <div class="pt-8">
+                <button
+                  class="px-5 py-2 font-bold text-white  x1l:ml-0 bg-ligthRed hover:bg-summerYellow  rounded-3xl">Free
+                  Consultation</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **************** my work **************** -->
+    <section id="mywork">
+      <div class="container px-4 pt-24 max-w-6xl mx-auto md:px-6 md:pt-28">
+        <h3 class="px-7 font-bold text-center text-2xl md:text-4xl x1l:pb-10 x1l:text-4xl">
+          My Work
+        </h3>
+        <div class="pt-8">
+          <!-- carrucel -->
+          <div class="h-52 md:h-80 x1l:h-82">
+            <ul class="slider h-full w-full grid grid-flow-col gap-4 md:gap-6 scroll-smooth overflow-auto">
+              <li class="slide-list h-full w-72 md:w-100 rounded-lg overflow-hidden">
+                <img src="src/img/image-slide-1.jpg" alt="ice art" class="h-full w-full object-cover">
+              </li>
+              <li class="slide-list h-full w-72 md:w-100 rounded-lg overflow-hidden">
+                <img src="src/img/image-slide-2.jpg" alt="mossaic" class="h-full w-full object-cover">
+              </li>
+              <li class="slide-list h-full w-72 md:w-100 rounded-lg overflow-hidden">
+                <img src="src/img/image-slide-3.jpg" alt="news papper" class="h-full w-full object-cover">
+              </li>
+              <li class="slide-list h-full w-72 md:w-100 rounded-lg overflow-hidden">
+                <img src="src/img/image-slide-4.jpg" alt="magazine art" class="h-full w-full object-cover">
+              </li>
+              <li class="slide-list h-full w-72 md:w-100 rounded-lg overflow-hidden">
+                <img src="src/img/image-slide-5.jpg" alt="responsive designe" class="h-full w-full object-cover">
+              </li>
+            </ul>
+            <div class="text-center py-9">
+              <button class="btn-left bg-black hover:bg-galacticBlue p-6 mx-1 rounded-full">
+                <img src="src/img/icon-arrow-left.svg" alt="arrow left">
+              </button>
+              <button class="btn-right bg-black hover:bg-galacticBlue p-6 mx-2 rounded-full">
+                <img src="src/img/icon-arrow-right.svg" alt="arrow right">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- *****************footer********** -->
+  <footer id="footer">
+    <div class="container px-4 pt-44 max-w-6xl mx-auto md:px-6 ">
+      <div class="p-4 bg-black text-white rounded-lg md:px-8 md:py-6 max-w-6xl mx-auto lg:flex lg:p-8">
+        <!-- <div class="p-6 x1l:p-12   x1l:grid x1l:grid-cols-2"> -->
+        <div class="lg:flex-1">
+          <h4 class="pt-8 text-2xl font-bold text-center md:text-4xl lg:text-left">
+            Book a call with me
+          </h4>
+          <p class="pt-6 px-4 leading-7 text-center md:pb-7 md:px-20 md:text-lg lg:text-left lg:px-0">
+            I’d love to have a chat to see how I can help you. The best first step is for us to discuss your
+            project
+            duringa
+            free consultation. Then we can move forward from there.
+          </p>
+        </div>
+
+        <div class="text-center py-6 md:pt-1 lg:flex-1 lg:flex lg:items-center lg:justify-center">
+          <button
+            class="px-5 font-bold x1l:px-7 py-2  x1l:m-0 bg-ligthRed hover:bg-summerYellow text-white rounded-3xl">Free
+            Consultation
+          </button>
+        </div>
+        <!--   </div> -->
+      </div>
+      <div class="px-4 py-8 max-w-6xl mx-auto md:py-6 md:px-0">
+        <div class="py-1 flex justify-between md:py-4">
+          <img src="src/img/logo.svg" alt="logo" class="w-11 h-11">
+          <button class="px-6 py-2 font-bold bg-black hover:bg-galacticBlue text-white rounded-3xl">
+            Free Consultation
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./src/js/main.js"></script>
+</body>
+
+</html>
