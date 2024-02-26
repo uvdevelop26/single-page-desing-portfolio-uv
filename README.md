@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/uvdevelop26/single-page-desing-portfolio-uv)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/uvdevelop26/single-page-desing-portfolio-uv)
+- Live Site URL: [Github Pages](https://your-live-site-url.com)
 
 ## My process
 
@@ -43,12 +43,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - [Tailwind](https://tailwindcss.com/)
 - CSS Grid
+- Flexbox
 - Mobile-first workflow
 
 ### What I learned
 
-
-in this challenge I learned about the "scrollLeft" property, it turns out doesn't matter how many times you reload the page you always have to add more (for each click) for the element to be scrolled
 ```js
 btnRight.addEventListener('click', () => {
     const list = lists[0].clientWidth
@@ -61,8 +60,6 @@ btnLeft.addEventListener('click', () => {
     slider.scrollLeft -= list
 });
 ```
-
-
 
 ### Continued development
 
